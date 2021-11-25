@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,8 +15,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        registerForPushNotifications()
         return true
     }
+    
+    func registerForPushNotifications() {
+      //1. Handles all notification-related activities in the app
+      UNUserNotificationCenter.current()
+        //2. Request authorization to show notifications
+        .requestAuthorization(options: [.alert, .sound, .badge]) { [weak self] granted, _ in
+          //3
+          print("!!!Permission granted: \(granted)")
+          guard granted else { return }
+          self?.getNotificationSettings()
+        }
+    }
+    
+    func getNotificationSettings() {
+      UNUserNotificationCenter.current().getNotificationSettings { settings in
+        print("!!!Notification settings: \(settings)")
+        guard settings.authorizationStatus == .authorized else { return }
+        DispatchQueue.main.async {
+            UIApplication.shared.registerForRemoteNotifications()
+          }
+      }
+    }
+    
+    func application(
+      _ application: UIApplication,
+      didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data
+    ) {
+      let tokenParts = deviceToken.map { data in String(format: "%02.2hhx", data) }
+      let token = tokenParts.joined()
+      print("!!!iPhone device Token: \(token)")
+    }
+
+
 
     // MARK: UISceneSession Lifecycle
 
