@@ -1,0 +1,1226 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41D00125274FB24A00F6C06A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D00124274FB24A00F6C06A /* AppDelegate.swift */; };
+		41D00127274FB24A00F6C06A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D00126274FB24A00F6C06A /* SceneDelegate.swift */; };
+		41D00129274FB24A00F6C06A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D00128274FB24A00F6C06A /* ViewController.swift */; };
+		41D0012C274FB24A00F6C06A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D0012A274FB24A00F6C06A /* Main.storyboard */; };
+		41D0012E274FB24D00F6C06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D0012D274FB24D00F6C06A /* Assets.xcassets */; };
+		41D00131274FB24D00F6C06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D0012F274FB24D00F6C06A /* LaunchScreen.storyboard */; };
+		41D0013C274FB24D00F6C06A /* NewBlackAuthenticatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D0013B274FB24D00F6C06A /* NewBlackAuthenticatorTests.swift */; };
+		41D00146274FB24E00F6C06A /* NewBlackAuthenticatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D00145274FB24E00F6C06A /* NewBlackAuthenticatorUITests.swift */; };
+		41D00148274FB24E00F6C06A /* NewBlackAuthenticatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D00147274FB24E00F6C06A /* NewBlackAuthenticatorUITestsLaunchTests.swift */; };
+		41D0014C274FB24E00F6C06A /* NewBlackAuthenticator WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 41D0014B274FB24E00F6C06A /* NewBlackAuthenticator WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41D00152274FB24E00F6C06A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41D00150274FB24E00F6C06A /* Interface.storyboard */; };
+		41D00154274FB24F00F6C06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D00153274FB24F00F6C06A /* Assets.xcassets */; };
+		41D0015A274FB24F00F6C06A /* NewBlackAuthenticator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 41D00159274FB24F00F6C06A /* NewBlackAuthenticator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41D0015F274FB24F00F6C06A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D0015E274FB24F00F6C06A /* InterfaceController.swift */; };
+		41D00161274FB24F00F6C06A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D00160274FB24F00F6C06A /* ExtensionDelegate.swift */; };
+		41D00163274FB24F00F6C06A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D00162274FB24F00F6C06A /* NotificationController.swift */; };
+		41D00165274FB24F00F6C06A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D00164274FB24F00F6C06A /* ComplicationController.swift */; };
+		41D00167274FB25000F6C06A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D00166274FB25000F6C06A /* Assets.xcassets */; };
+		41D00173274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D00172274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppTests.swift */; };
+		41D0017D274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D0017C274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppUITests.swift */; };
+		41D0017F274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D0017E274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41D00138274FB24D00F6C06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41D00119274FB24A00F6C06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41D00120274FB24A00F6C06A;
+			remoteInfo = NewBlackAuthenticator;
+		};
+		41D00142274FB24D00F6C06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41D00119274FB24A00F6C06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41D00120274FB24A00F6C06A;
+			remoteInfo = NewBlackAuthenticator;
+		};
+		41D0014D274FB24E00F6C06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41D00119274FB24A00F6C06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41D0014A274FB24E00F6C06A;
+			remoteInfo = "NewBlackAuthenticator WatchKit App";
+		};
+		41D0015B274FB24F00F6C06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41D00119274FB24A00F6C06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41D00158274FB24F00F6C06A;
+			remoteInfo = "NewBlackAuthenticator WatchKit Extension";
+		};
+		41D0016F274FB25000F6C06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41D00119274FB24A00F6C06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41D00158274FB24F00F6C06A;
+			remoteInfo = "NewBlackAuthenticator WatchKit Extension";
+		};
+		41D00179274FB25000F6C06A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41D00119274FB24A00F6C06A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41D0014A274FB24E00F6C06A;
+			remoteInfo = "NewBlackAuthenticator WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41D00185274FB25000F6C06A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				41D0015A274FB24F00F6C06A /* NewBlackAuthenticator WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D00189274FB25000F6C06A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				41D0014C274FB24E00F6C06A /* NewBlackAuthenticator WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		41D00121274FB24A00F6C06A /* NewBlackAuthenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewBlackAuthenticator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D00124274FB24A00F6C06A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41D00126274FB24A00F6C06A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		41D00128274FB24A00F6C06A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41D0012B274FB24A00F6C06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41D0012D274FB24D00F6C06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41D00130274FB24D00F6C06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41D00132274FB24D00F6C06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D00137274FB24D00F6C06A /* NewBlackAuthenticatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewBlackAuthenticatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D0013B274FB24D00F6C06A /* NewBlackAuthenticatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBlackAuthenticatorTests.swift; sourceTree = "<group>"; };
+		41D00141274FB24D00F6C06A /* NewBlackAuthenticatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewBlackAuthenticatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D00145274FB24E00F6C06A /* NewBlackAuthenticatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBlackAuthenticatorUITests.swift; sourceTree = "<group>"; };
+		41D00147274FB24E00F6C06A /* NewBlackAuthenticatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBlackAuthenticatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41D0014B274FB24E00F6C06A /* NewBlackAuthenticator WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewBlackAuthenticator WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D00151274FB24E00F6C06A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		41D00153274FB24F00F6C06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41D00159274FB24F00F6C06A /* NewBlackAuthenticator WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NewBlackAuthenticator WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D0015E274FB24F00F6C06A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		41D00160274FB24F00F6C06A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		41D00162274FB24F00F6C06A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		41D00164274FB24F00F6C06A /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		41D00166274FB25000F6C06A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41D00168274FB25000F6C06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41D00169274FB25000F6C06A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		41D0016E274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NewBlackAuthenticator WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D00172274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBlackAuthenticator_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		41D00178274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NewBlackAuthenticator WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D0017C274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBlackAuthenticator_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		41D0017E274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBlackAuthenticator_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41D00199274FB26B00F6C06A /* NewBlackAuthenticator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewBlackAuthenticator.entitlements; sourceTree = "<group>"; };
+		41D0019A274FB2A500F6C06A /* NewBlackAuthenticator WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NewBlackAuthenticator WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41D0011E274FB24A00F6C06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D00134274FB24D00F6C06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D0013E274FB24D00F6C06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D00156274FB24F00F6C06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D0016B274FB25000F6C06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D00175274FB25000F6C06A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41D00118274FB24A00F6C06A = {
+			isa = PBXGroup;
+			children = (
+				41D00123274FB24A00F6C06A /* NewBlackAuthenticator */,
+				41D0013A274FB24D00F6C06A /* NewBlackAuthenticatorTests */,
+				41D00144274FB24E00F6C06A /* NewBlackAuthenticatorUITests */,
+				41D0014F274FB24E00F6C06A /* NewBlackAuthenticator WatchKit App */,
+				41D0015D274FB24F00F6C06A /* NewBlackAuthenticator WatchKit Extension */,
+				41D00171274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppTests */,
+				41D0017B274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppUITests */,
+				41D00122274FB24A00F6C06A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41D00122274FB24A00F6C06A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41D00121274FB24A00F6C06A /* NewBlackAuthenticator.app */,
+				41D00137274FB24D00F6C06A /* NewBlackAuthenticatorTests.xctest */,
+				41D00141274FB24D00F6C06A /* NewBlackAuthenticatorUITests.xctest */,
+				41D0014B274FB24E00F6C06A /* NewBlackAuthenticator WatchKit App.app */,
+				41D00159274FB24F00F6C06A /* NewBlackAuthenticator WatchKit Extension.appex */,
+				41D0016E274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppTests.xctest */,
+				41D00178274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41D00123274FB24A00F6C06A /* NewBlackAuthenticator */ = {
+			isa = PBXGroup;
+			children = (
+				41D00199274FB26B00F6C06A /* NewBlackAuthenticator.entitlements */,
+				41D00124274FB24A00F6C06A /* AppDelegate.swift */,
+				41D00126274FB24A00F6C06A /* SceneDelegate.swift */,
+				41D00128274FB24A00F6C06A /* ViewController.swift */,
+				41D0012A274FB24A00F6C06A /* Main.storyboard */,
+				41D0012D274FB24D00F6C06A /* Assets.xcassets */,
+				41D0012F274FB24D00F6C06A /* LaunchScreen.storyboard */,
+				41D00132274FB24D00F6C06A /* Info.plist */,
+			);
+			path = NewBlackAuthenticator;
+			sourceTree = "<group>";
+		};
+		41D0013A274FB24D00F6C06A /* NewBlackAuthenticatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				41D0013B274FB24D00F6C06A /* NewBlackAuthenticatorTests.swift */,
+			);
+			path = NewBlackAuthenticatorTests;
+			sourceTree = "<group>";
+		};
+		41D00144274FB24E00F6C06A /* NewBlackAuthenticatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41D00145274FB24E00F6C06A /* NewBlackAuthenticatorUITests.swift */,
+				41D00147274FB24E00F6C06A /* NewBlackAuthenticatorUITestsLaunchTests.swift */,
+			);
+			path = NewBlackAuthenticatorUITests;
+			sourceTree = "<group>";
+		};
+		41D0014F274FB24E00F6C06A /* NewBlackAuthenticator WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				41D00150274FB24E00F6C06A /* Interface.storyboard */,
+				41D00153274FB24F00F6C06A /* Assets.xcassets */,
+			);
+			path = "NewBlackAuthenticator WatchKit App";
+			sourceTree = "<group>";
+		};
+		41D0015D274FB24F00F6C06A /* NewBlackAuthenticator WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				41D0019A274FB2A500F6C06A /* NewBlackAuthenticator WatchKit Extension.entitlements */,
+				41D0015E274FB24F00F6C06A /* InterfaceController.swift */,
+				41D00160274FB24F00F6C06A /* ExtensionDelegate.swift */,
+				41D00162274FB24F00F6C06A /* NotificationController.swift */,
+				41D00164274FB24F00F6C06A /* ComplicationController.swift */,
+				41D00166274FB25000F6C06A /* Assets.xcassets */,
+				41D00168274FB25000F6C06A /* Info.plist */,
+				41D00169274FB25000F6C06A /* PushNotificationPayload.apns */,
+			);
+			path = "NewBlackAuthenticator WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		41D00171274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				41D00172274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppTests.swift */,
+			);
+			path = "NewBlackAuthenticator WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		41D0017B274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41D0017C274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppUITests.swift */,
+				41D0017E274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "NewBlackAuthenticator WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41D00120274FB24A00F6C06A /* NewBlackAuthenticator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D0018A274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticator" */;
+			buildPhases = (
+				41D0011D274FB24A00F6C06A /* Sources */,
+				41D0011E274FB24A00F6C06A /* Frameworks */,
+				41D0011F274FB24A00F6C06A /* Resources */,
+				41D00189274FB25000F6C06A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41D0014E274FB24E00F6C06A /* PBXTargetDependency */,
+			);
+			name = NewBlackAuthenticator;
+			productName = NewBlackAuthenticator;
+			productReference = 41D00121274FB24A00F6C06A /* NewBlackAuthenticator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41D00136274FB24D00F6C06A /* NewBlackAuthenticatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D0018D274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticatorTests" */;
+			buildPhases = (
+				41D00133274FB24D00F6C06A /* Sources */,
+				41D00134274FB24D00F6C06A /* Frameworks */,
+				41D00135274FB24D00F6C06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41D00139274FB24D00F6C06A /* PBXTargetDependency */,
+			);
+			name = NewBlackAuthenticatorTests;
+			productName = NewBlackAuthenticatorTests;
+			productReference = 41D00137274FB24D00F6C06A /* NewBlackAuthenticatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41D00140274FB24D00F6C06A /* NewBlackAuthenticatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D00190274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticatorUITests" */;
+			buildPhases = (
+				41D0013D274FB24D00F6C06A /* Sources */,
+				41D0013E274FB24D00F6C06A /* Frameworks */,
+				41D0013F274FB24D00F6C06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41D00143274FB24D00F6C06A /* PBXTargetDependency */,
+			);
+			name = NewBlackAuthenticatorUITests;
+			productName = NewBlackAuthenticatorUITests;
+			productReference = 41D00141274FB24D00F6C06A /* NewBlackAuthenticatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		41D0014A274FB24E00F6C06A /* NewBlackAuthenticator WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D00186274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticator WatchKit App" */;
+			buildPhases = (
+				41D00149274FB24E00F6C06A /* Resources */,
+				41D00185274FB25000F6C06A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41D0015C274FB24F00F6C06A /* PBXTargetDependency */,
+			);
+			name = "NewBlackAuthenticator WatchKit App";
+			productName = "NewBlackAuthenticator WatchKit App";
+			productReference = 41D0014B274FB24E00F6C06A /* NewBlackAuthenticator WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		41D00158274FB24F00F6C06A /* NewBlackAuthenticator WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D00182274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticator WatchKit Extension" */;
+			buildPhases = (
+				41D00155274FB24F00F6C06A /* Sources */,
+				41D00156274FB24F00F6C06A /* Frameworks */,
+				41D00157274FB24F00F6C06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NewBlackAuthenticator WatchKit Extension";
+			productName = "NewBlackAuthenticator WatchKit Extension";
+			productReference = 41D00159274FB24F00F6C06A /* NewBlackAuthenticator WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		41D0016D274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D00193274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticator WatchKit AppTests" */;
+			buildPhases = (
+				41D0016A274FB25000F6C06A /* Sources */,
+				41D0016B274FB25000F6C06A /* Frameworks */,
+				41D0016C274FB25000F6C06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41D00170274FB25000F6C06A /* PBXTargetDependency */,
+			);
+			name = "NewBlackAuthenticator WatchKit AppTests";
+			productName = "NewBlackAuthenticator WatchKit AppTests";
+			productReference = 41D0016E274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41D00177274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41D00196274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticator WatchKit AppUITests" */;
+			buildPhases = (
+				41D00174274FB25000F6C06A /* Sources */,
+				41D00175274FB25000F6C06A /* Frameworks */,
+				41D00176274FB25000F6C06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41D0017A274FB25000F6C06A /* PBXTargetDependency */,
+			);
+			name = "NewBlackAuthenticator WatchKit AppUITests";
+			productName = "NewBlackAuthenticator WatchKit AppUITests";
+			productReference = 41D00178274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41D00119274FB24A00F6C06A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					41D00120274FB24A00F6C06A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					41D00136274FB24D00F6C06A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 41D00120274FB24A00F6C06A;
+					};
+					41D00140274FB24D00F6C06A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 41D00120274FB24A00F6C06A;
+					};
+					41D0014A274FB24E00F6C06A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					41D00158274FB24F00F6C06A = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					41D0016D274FB25000F6C06A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 41D00158274FB24F00F6C06A;
+					};
+					41D00177274FB25000F6C06A = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 41D0014A274FB24E00F6C06A;
+					};
+				};
+			};
+			buildConfigurationList = 41D0011C274FB24A00F6C06A /* Build configuration list for PBXProject "NewBlackAuthenticator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41D00118274FB24A00F6C06A;
+			productRefGroup = 41D00122274FB24A00F6C06A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41D00120274FB24A00F6C06A /* NewBlackAuthenticator */,
+				41D00136274FB24D00F6C06A /* NewBlackAuthenticatorTests */,
+				41D00140274FB24D00F6C06A /* NewBlackAuthenticatorUITests */,
+				41D0014A274FB24E00F6C06A /* NewBlackAuthenticator WatchKit App */,
+				41D00158274FB24F00F6C06A /* NewBlackAuthenticator WatchKit Extension */,
+				41D0016D274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppTests */,
+				41D00177274FB25000F6C06A /* NewBlackAuthenticator WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41D0011F274FB24A00F6C06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D00131274FB24D00F6C06A /* LaunchScreen.storyboard in Resources */,
+				41D0012E274FB24D00F6C06A /* Assets.xcassets in Resources */,
+				41D0012C274FB24A00F6C06A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D00135274FB24D00F6C06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D0013F274FB24D00F6C06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D00149274FB24E00F6C06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D00154274FB24F00F6C06A /* Assets.xcassets in Resources */,
+				41D00152274FB24E00F6C06A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D00157274FB24F00F6C06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D00167274FB25000F6C06A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D0016C274FB25000F6C06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D00176274FB25000F6C06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41D0011D274FB24A00F6C06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D00129274FB24A00F6C06A /* ViewController.swift in Sources */,
+				41D00125274FB24A00F6C06A /* AppDelegate.swift in Sources */,
+				41D00127274FB24A00F6C06A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D00133274FB24D00F6C06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D0013C274FB24D00F6C06A /* NewBlackAuthenticatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D0013D274FB24D00F6C06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D00146274FB24E00F6C06A /* NewBlackAuthenticatorUITests.swift in Sources */,
+				41D00148274FB24E00F6C06A /* NewBlackAuthenticatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D00155274FB24F00F6C06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D00163274FB24F00F6C06A /* NotificationController.swift in Sources */,
+				41D00165274FB24F00F6C06A /* ComplicationController.swift in Sources */,
+				41D00161274FB24F00F6C06A /* ExtensionDelegate.swift in Sources */,
+				41D0015F274FB24F00F6C06A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D0016A274FB25000F6C06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D00173274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41D00174274FB25000F6C06A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D0017F274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				41D0017D274FB25000F6C06A /* NewBlackAuthenticator_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41D00139274FB24D00F6C06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41D00120274FB24A00F6C06A /* NewBlackAuthenticator */;
+			targetProxy = 41D00138274FB24D00F6C06A /* PBXContainerItemProxy */;
+		};
+		41D00143274FB24D00F6C06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41D00120274FB24A00F6C06A /* NewBlackAuthenticator */;
+			targetProxy = 41D00142274FB24D00F6C06A /* PBXContainerItemProxy */;
+		};
+		41D0014E274FB24E00F6C06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41D0014A274FB24E00F6C06A /* NewBlackAuthenticator WatchKit App */;
+			targetProxy = 41D0014D274FB24E00F6C06A /* PBXContainerItemProxy */;
+		};
+		41D0015C274FB24F00F6C06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41D00158274FB24F00F6C06A /* NewBlackAuthenticator WatchKit Extension */;
+			targetProxy = 41D0015B274FB24F00F6C06A /* PBXContainerItemProxy */;
+		};
+		41D00170274FB25000F6C06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41D00158274FB24F00F6C06A /* NewBlackAuthenticator WatchKit Extension */;
+			targetProxy = 41D0016F274FB25000F6C06A /* PBXContainerItemProxy */;
+		};
+		41D0017A274FB25000F6C06A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41D0014A274FB24E00F6C06A /* NewBlackAuthenticator WatchKit App */;
+			targetProxy = 41D00179274FB25000F6C06A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41D0012A274FB24A00F6C06A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D0012B274FB24A00F6C06A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41D0012F274FB24D00F6C06A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D00130274FB24D00F6C06A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		41D00150274FB24E00F6C06A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41D00151274FB24E00F6C06A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41D00180274FB25000F6C06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41D00181274FB25000F6C06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		41D00183274FB25000F6C06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "NewBlackAuthenticator WatchKit Extension/NewBlackAuthenticator WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NewBlackAuthenticator WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NewBlackAuthenticator WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natalia.NewBlackAuthenticator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		41D00184274FB25000F6C06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "NewBlackAuthenticator WatchKit Extension/NewBlackAuthenticator WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NewBlackAuthenticator WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NewBlackAuthenticator WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natalia.NewBlackAuthenticator.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		41D00187274FB25000F6C06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = NewBlackAuthenticator_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "NewBlackAuthenticator WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.natalia.NewBlackAuthenticator;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natalia.NewBlackAuthenticator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		41D00188274FB25000F6C06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = NewBlackAuthenticator_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "NewBlackAuthenticator WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.natalia.NewBlackAuthenticator;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natalia.NewBlackAuthenticator.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		41D0018B274FB25000F6C06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NewBlackAuthenticator/NewBlackAuthenticator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewBlackAuthenticator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natalia.NewBlackAuthenticator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41D0018C274FB25000F6C06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NewBlackAuthenticator/NewBlackAuthenticator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewBlackAuthenticator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natalia.NewBlackAuthenticator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41D0018E274FB25000F6C06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natalia.NewBlackAuthenticatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewBlackAuthenticator.app/NewBlackAuthenticator";
+			};
+			name = Debug;
+		};
+		41D0018F274FB25000F6C06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natalia.NewBlackAuthenticatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewBlackAuthenticator.app/NewBlackAuthenticator";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41D00191274FB25000F6C06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natalia.NewBlackAuthenticatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewBlackAuthenticator;
+			};
+			name = Debug;
+		};
+		41D00192274FB25000F6C06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.natalia.NewBlackAuthenticatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NewBlackAuthenticator;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41D00194274FB25000F6C06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.natalia.NewBlackAuthenticator-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewBlackAuthenticator WatchKit Extension.appex/NewBlackAuthenticator WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		41D00195274FB25000F6C06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.natalia.NewBlackAuthenticator-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewBlackAuthenticator WatchKit Extension.appex/NewBlackAuthenticator WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		41D00197274FB25000F6C06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.natalia.NewBlackAuthenticator-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NewBlackAuthenticator WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		41D00198274FB25000F6C06A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6XDULFLT4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.natalia.NewBlackAuthenticator-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NewBlackAuthenticator WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41D0011C274FB24A00F6C06A /* Build configuration list for PBXProject "NewBlackAuthenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D00180274FB25000F6C06A /* Debug */,
+				41D00181274FB25000F6C06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D00182274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticator WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D00183274FB25000F6C06A /* Debug */,
+				41D00184274FB25000F6C06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D00186274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticator WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D00187274FB25000F6C06A /* Debug */,
+				41D00188274FB25000F6C06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D0018A274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D0018B274FB25000F6C06A /* Debug */,
+				41D0018C274FB25000F6C06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D0018D274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D0018E274FB25000F6C06A /* Debug */,
+				41D0018F274FB25000F6C06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D00190274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D00191274FB25000F6C06A /* Debug */,
+				41D00192274FB25000F6C06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D00193274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticator WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D00194274FB25000F6C06A /* Debug */,
+				41D00195274FB25000F6C06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41D00196274FB25000F6C06A /* Build configuration list for PBXNativeTarget "NewBlackAuthenticator WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D00197274FB25000F6C06A /* Debug */,
+				41D00198274FB25000F6C06A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41D00119274FB24A00F6C06A /* Project object */;
+}
