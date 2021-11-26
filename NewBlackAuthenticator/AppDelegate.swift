@@ -11,6 +11,7 @@ import UserNotifications
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    private let categoryIdentifier = "YesOrNO"
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -47,10 +48,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     ) {
       let tokenParts = deviceToken.map { data in String(format: "%02.2hhx", data) }
       let token = tokenParts.joined()
+        configureCustomActions()
       print("!!!iPhone device Token: \(token)")
     }
 
-
+    func configureCustomActions() {
+            let yes = UNNotificationAction(identifier: "yes", title: "yes")
+            let no = UNNotificationAction(identifier: "no", title: "no")
+            let categoryName =  UNNotificationCategory(identifier: categoryIdentifier, actions: [yes, no], intentIdentifiers: [], options: [])
+            UNUserNotificationCenter.current().setNotificationCategories([categoryName])
+        }
 
     // MARK: UISceneSession Lifecycle
 

@@ -10,6 +10,8 @@ import UserNotifications
 
 class ExtensionDelegate: NSObject, WKExtensionDelegate {
 
+    private let categoryIdentifier = "YesOrNO"
+
     func applicationDidFinishLaunching() {
         // Perform any final initialization of your application.
         registerForPushNotifications()
@@ -40,11 +42,16 @@ class ExtensionDelegate: NSObject, WKExtensionDelegate {
     func didRegisterForRemoteNotifications(withDeviceToken deviceToken: Data) {
         let tokenParts = deviceToken.map { data in String(format: "%02.2hhx", data) }
         let token = tokenParts.joined()
-
+        configureCustomActions()
         print("!!!This is apple watch device token: \(token)")
       }
 
-
+    func configureCustomActions() {
+            let yes = UNNotificationAction(identifier: "yes", title: "Approve")
+            let no = UNNotificationAction(identifier: "no", title: "Deny")
+            let categoryName =  UNNotificationCategory(identifier: categoryIdentifier, actions: [yes, no], intentIdentifiers: [], options: [])
+            UNUserNotificationCenter.current().setNotificationCategories([categoryName])
+        }
 
 
     func applicationDidBecomeActive() {
